@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+        background: #4070F4;
+    }
+    header{
+    height:60px;
+    background: #1e1e1E;
+    padding: 0px 50px;
+    }
+    .logo{
+    width: 150px;
+    float: left;
+    margin-top: 2px;
+    position: relative;
+    padding-top: 0%;
+    line-height: 0px;
+    }
+    .logo2{
+        width: 60px;
+        float: left;
+        padding-top: 0%;
+        padding-right: 20px;
+        line-height: 0px;
+    }
+    nav{
+    width: 60%;
+    float: right;
+    }
+    nav ul{
+    list-style: none;
+    float: right;
+    }
+    nav ul li{
+    display: inline-block;
+    }
+    nav ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
+    }
+    .app{
+        background: #efefef;
+        width: 90%;
+        max-width: 600px;
+        margin: 100px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .app h1{
+        font-size: 25px;
+        color: #4070F4;
+        font-weight: 600;
+        border-bottom: 1px solid #333;
+        padding-bottom: 30px;
+    }
+    .quiz{
+        padding: 20px 0;
+    }
+    .quiz h2{
+        font-size: 18px;
+        color: #4070F4;
+        font-weight: 600;
+    }
+    .btn{
+        background-color: #fff;
+        color: #222;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid #222;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .btn:hover{
+        background: #222;
+        color: white;
+       
+    }
+    #next-btn{
+        background: #001e4d;
+        color: #fff;
+        font-weight: 500;
+        width: 150px;
+        border: 0;
+        padding: 10px;
+        margin: 20px auto 0;
+        border-radius: 5px ;
+        cursor: pointer;
+        display: block;
+    }
+    footer{
+        background: #1e1e1E;
+        color: white;
+        padding: 15px 50px;
+        text-align:center;
+        position: flex;
+        }

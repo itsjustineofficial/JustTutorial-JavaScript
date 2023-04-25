@@ -1,0 +1,85 @@
+    *{
+    margin:0;
+    padding:0;
+    }
+    body{
+        background: #4070f4;
+    }
+    header{
+    height:60px;
+    background: #1e1e1E;
+    padding: 0px 50px;
+    }
+    .logo{
+    width: 150px;
+    float: left;
+    margin-top: 2px;
+    position: relative;
+    padding-top: 0%;
+    line-height: 0px;
+    }
+    .logo2{
+        width: 500px;
+        margin-top: 34px;
+        align-items: center;
+        padding-top: 0%;
+        line-height: 0px;
+    }
+    nav{
+    width: 60%;
+    float: right;
+    }
+    nav ul{
+    list-style: none;
+    float: right;
+    }
+    nav ul li{
+    display: inline-block;
+    }
+    nav ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
+    }
+    .content{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 27;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 25px;
+    text-align: center;
+    }
+    .content h1{
+        font-size: 100px;
+    }
+    .button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+	width: 300px;
+	font-size: 50px;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    color: #4070F4;
+    padding: 8px 16px;
+    background-color: #ffcb29;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    .button:hover{
+    background: #ffcb29;
+    color:#fff;
+    }
+    footer{
+    background: #1e1e1E;
+    color: white;
+    padding: 15px 50px;
+    text-align:center;
+    position: flex;
+    }
+ 
